@@ -1,0 +1,141 @@
+/* MAIN */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+footer{
+    background: #023047;
+    height: 4rem;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.home-button{
+    background: #023047;
+    color: white;
+    border-radius: 1.25rem;
+    width: 12.5rem;
+    height: 3.9rem;
+
+   
+}
+
+.home-button:hover{
+    background: #ffff;
+    border-color: crimson;
+    color:crimson ;
+}
+
+.home-container{
+    margin-bottom: 5%;
+    font-weight: 400;
+    font-size: 2.0rem;
+    line-height: 3.0rem;
+    text-align: center;
+    
+
+    
+}
+
+#item{
+    color: black;
+    font-size: 20px;
+
+}
+
+#item:hover{
+   
+   color: crimson;
+}
+
+
+
+.home-txt{
+    text-align: center;
+    margin : 11% 0 0 0 !important;
+}
+
+
+.txtt{
+    color:crimson;
+}
+
+/*media queries*/
+@media  (max-width: 913px) and (min-width: 768px){
+
+    
+    .home-button{
+        margin-top: 0.75rem;
+        
+    }
+}
+
+@media (max-width:767.5px) and (min-width:481px){
+
+    footer{
+        height: 0;
+    }
+
+}
+
+@media (max-width:480.5px){
+    footer{
+        height: 0;
+    }
+}
+
+/* REGISTER */
+.sign{
+     width: 450px;
+     height: 650px;
+     position: relative;
+     float: right;
+     right: 120px;
+     top: 70px;
+     color: white; 
+     padding: 60px;
+     align-items: left;
+     
+}
+
+
+.input-fields{
+     background-color:  #023047;
+     border: none;
+     border-bottom: rgba(182, 182, 182, 0.842) solid 1px;
+     transition: ease .5s;
+     color: #fff;
+}
+
+.input-fields:hover{
+  
+    border-bottom: #023047 solid 1px;
+    width: 29
+}
+
+form button:hover{
+   background-color:  crimson;
+   color: white !important;
+
+}
+
+
+.register {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.signin{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width:100px;
+    text-transform: uppercase  ;
+
+}
+
