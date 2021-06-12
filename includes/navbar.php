@@ -2,8 +2,6 @@
 <html>
 
 <head>
-  
-  <title>UNIHUB - Register</title>
   <!-- 
         <link rel="stylesheet" href="styles/bootstrap.min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,14 +18,15 @@
 
   <!--Styles CSS-->
   <link rel="stylesheet" href="styles.css">
-  
+  <title>UNIHUB - Register</title>
   </head>
 
 <body style="font-size: 16px;;">
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:white;">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php"> <img src="picha/ICON.PNG" alt="" width="" height="">
-        UNIHUB</a></a>
+        UNIHUB
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
