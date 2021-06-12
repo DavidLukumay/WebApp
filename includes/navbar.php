@@ -2,7 +2,8 @@
 <html>
 
 <head>
-  <title> Sign In - UNIHUB</title>
+  
+  <title>UNIHUB - Register</title>
   <!-- 
         <link rel="stylesheet" href="styles/bootstrap.min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,14 +20,13 @@
 
   <!--Styles CSS-->
   <link rel="stylesheet" href="styles.css">
-
-  <title>UNIHUB</title>
-</head>
+  
+  </head>
 
 <body style="font-size: 16px;;">
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:white;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"> <img src="picha/ICON.PNG" alt="" width="" height="">
+      <a class="navbar-brand" href="index.php"> <img src="picha/ICON.PNG" alt="" width="" height="">
         UNIHUB</a></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,15 +35,15 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link ms-lg-4" id="item" href="index.html">HOME</a>
+            <a class="nav-link ms-lg-4" id="item" href="index.php">HOME</a>
           </li>
 
 
           <li class="nav-item ms-lg-4">
-            <a class="nav-link " id="item" href="login.html">SIGN IN</a>
+            <a class="nav-link " id="item" href="login.php">SIGN IN</a>
           </li>
           <li class="nav-item ms-lg-4">
-            <a class="nav-link " id="item" href="register.html">REGISTER</a>
+            <a class="nav-link " id="item" href="register.php">REGISTER</a>
           </li>
           <li class="nav-item ms-lg-4">
             <a class="nav-link " id="item" href="#">ABOUT</a>
@@ -52,44 +52,3 @@
       </div>
     </div>
   </nav>
-
-
-  <div class="card  sign" style=" background-color: #023047;border-radius: 40px;">
-    <center>
-      <h4>REGISTER</h4>
-    </center>
-
-    <form action="">
-      <br>
-      <label for="username">Username </label> <br>
-      <input type="email" class="input-fields">
-      <br><br>
-      <label for="password">Email </label> <br>
-      <input type="password" class="input-fields"> <br><br>
-
-      <label for="username">Password </label> <br>
-      <input type="email" class="input-fields">
-      <br><br>
-
-      <label for="username">Confirm password </label> <br>
-      <input type="email" class="input-fields">
-      <br><br>
-
-
-      <center>
-        <button class="btn register" type="submit">REGISTER</button>
-
-        <br><br><br>
-        <a href="login.html" style="color:white;text-decoration: none;">
-          Already have an account? Sign In
-        </a>
-      </center>
-    </form>
-  </div>
-  <footer class="container-fluid"></footer>
-
-  <script src="scripts/bootstrap.min.js"></script>
-  <script src="scripts/jquery.js"></script>
-</body>
-
-</html>
